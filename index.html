@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <h4>calc</h4>
+    <div class="display">
+    <input  type="text" id="result">
+    </div>
+   
+
+    
+    <div class="cal" >
+        <button id="no7"onclick="insertValue('7')">7</button>
+        <button id="no9"onclick="insertValue('8')">8</button>
+        <button id="no7"onclick="insertValue('9')">9</button>
+        <button onclick="deleteResult()"id="del">DEL</button>
+        <button id="no4"onclick="insertValue('4')">4</button>
+        <button id="no5"onclick="insertValue('5')">5</button>
+        <button id="no6"onclick="insertValue('6')">6</button>
+        <button id="sum"onclick="insertValue('+')">+</button>
+        <button id="no1"onclick="insertValue('1')">1</button>
+        <button id="no2"onclick="insertValue('2')">2</button>
+        <button id="no3"onclick="insertValue('3')">3</button>
+        <button id="sub"onclick="insertValue('-')">-</button>
+        <button id="dot"onclick="insertValue('.')">.</button>
+        <button id="no0"onclick="insertValue('0')">0</button>
+        <button id="slas" onclick="insertValue('/')">/</button>
+        <button id="mul"onclick="insertValue('*')">x</button>
+        <div class="last">
+            <button class="las" id="reset" onclick="clearResult()">Reset</button>
+            <button class="las" id="equal"onclick="calculate('=')">=</button>
+        </div>
+
+    
+    </div>
+</div>  
+<script src="./sript.js"></script> 
+</body>
+</html>

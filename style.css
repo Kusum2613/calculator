@@ -1,0 +1,76 @@
+.cal{
+    width:450px;
+    height:350px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#00001a;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid #1a1aff;
+
+    
+}
+button{
+    width: 98px;
+    height:50px ;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+     font-weight:400;
+    
+    
+}
+.las{
+    width: 200px;
+    font-size: 20px;
+     font-weight:400 ;
+     color: beige;
+}
+.cal #reset{
+    background-color: slateblue;
+}
+.cal #equal{
+    background-color:rgb(255, 47, 0);
+}
+.container{
+    width: 100%;
+    height:100vh;
+    background-color:#483D8B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.display{
+    width:490px;
+    height: 110px;
+    background-color:#00001a;
+    border-radius:10px;
+    
+    font-size: 30px;
+    font-weight:500;
+    color: azure;
+    border:none;
+}
+input[type="text"]{
+       width: 90%;
+       height: 40px;
+       font-size: 40px;
+       text-align: right;
+       padding-right: 5px;
+       padding-top: 30px;
+       border: none;
+       background-color:#00001a;
+       color: azure;
+}
+h4{
+    margin-left: -450px;
+    font-size:25px;
+    
+    color: azure;
+}
+
