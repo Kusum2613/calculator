@@ -11,9 +11,8 @@ function deleteResult(){
 }
 function calculate(){
     try{
-        //res.value = eval(res.value)
-        let result = eval(res.value);
-        res.value = isFinite(result) ? result.toFixed(3) : "error";
+        res.value = eval(res.value)
+        
     }
      catch(error){
         res.val ="error"
